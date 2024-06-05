@@ -1,0 +1,146 @@
+/* CSS code for styling the heading */
+.hp-h1 {
+  font-family: 'Arial', sans-serif;
+  /* Replace with your preferred font */
+  color: #ff4500;
+  /* Change text color */
+  text-align: center;
+  /* Center align text */
+  padding: 20px;
+  /* Add padding for better visual appeal */
+}
+
+/* Optional: Add styles for the hover effect */
+.hp-h1:hover {
+  color: #fa8484;
+  /* Change text color on hover */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+}
+
+/* CSS code for styling the heading in a movie recommendation system */
+.hp-h2 {
+  font-family: 'Roboto', sans-serif;
+  /* Replace with your preferred font */
+  color: #ddb87c;
+  /* Text color */
+  text-align: center;
+  /* Center align text */
+  padding: 15px;
+  /* Add padding for better visual appeal */
+}
+
+/* Optional: Add styles for the hover effect */
+.hp-h2:hover {
+  color: #ffffff;
+  /* Change text color on hover */
+  cursor: pointer;
+  /* Change cursor to pointer on hover */
+}
+
+/*Styling background*/
+.bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 100%;
+  width: 100%;
+}
+
+/* CSS code for styling the search bar */
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+#searchInput {
+  padding: 10px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #ff4500;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d13232;
+}
+
+.movie-intro {
+  font-size: 1.2rem;
+  /* Adjust font size */
+  margin-bottom: 15px;
+  /* Add spacing below the paragraph */
+  text-align: center;
+  /* Center align the text */
+  color: #666;
+  /* Set a light text color */
+}
+
+#mood-selector {
+
+  color: #666;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Indicate interactivity */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+nav {
+  overflow: hidden;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+}
+
+nav a:hover {
+  color: orangered;
+}
+
+footer {
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer a {
+  text-decoration:none;
+  padding: 20px;
+  text-align: center;
+  float: left;
+  color: white;
+  
+}
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh; /* Set the body height to 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.div {
+  flex: 1; /* Allow the content to take up remaining space */
+}
+
+
